@@ -18,8 +18,8 @@
 // design consequences (design impact)
 
 // Impact analysis:
-// <student fill here>
-
+// <student fi
+//Raneem juhtai
 
 
 // -----------------------------------------------------------------------
@@ -80,16 +80,12 @@ function PQNode(item, key)
 // function names should not clash with linklist.js and queue.js
 // ....
 
-
-
 function isEmptyImpl()
 {
     // check if PQ is empty or not
 	return (this.pq.isEmpty());
 	
 }
-
-
 
 
 function deleteMinImpl()
