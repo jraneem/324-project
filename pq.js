@@ -18,30 +18,28 @@
 // design consequences (design impact)
 
 // Impact analysis:
-// <student fi
+// <student fill>
 //Raneem juhtai
 
 
 // -----------------------------------------------------------------------
 // Priority queue object constructor (document using JSDOC comments)
 
-
-
 function PQueue()
 {
-	 /** Head pointer of a queue  */
+	 /** Head pointer   */
 	this.pq = new List();          
 	
     // specify (design) methods
     
 	/**
-      Return true if queue is empty
+      send  true if the queue is empty
       @method
     */
 	this.isEmpty = isEmptyImpl;                   
 
 	/**
-      Remove and return item with minimum priority
+      delete and return item with minimum priority
       @method
      */
 	this.deleteMin = deleteMinImpl;                
@@ -61,7 +59,7 @@ function PQueue()
 function PQNode(item, key)
 {
 	/**
-      The value of Data item 
+      The value the item 
     */
 	this.item = item;
 
@@ -82,7 +80,7 @@ function PQNode(item, key)
 
 function isEmptyImpl()
 {
-    // check if PQ is empty or not
+    // here check if PQ is empty or not ?
 	return (this.pq.isEmpty());
 	
 }
